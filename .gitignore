@@ -1,0 +1,7 @@
+node_modules/
+.next/
+.reference-frames/
+.video-samples/
+.extract-video-frames.swift
+*.tsbuildinfo
+.DS_Store
