@@ -55,6 +55,7 @@ const projectImages = [
   "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1400&q=85",
   "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1400&q=85",
   "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=1400&q=85",
+  "/images/project-ai-soc-lab.svg",
 ];
 
 const services = [
@@ -113,6 +114,15 @@ const experience = [
 const projects = [
   {
     no: "01.",
+    title: "AI-Powered SOC Investigation Lab",
+    desc: "A full detection pipeline — Sysmon telemetry into Wazuh, behaviour-based triage, and an AI analyst that drafts the investigation.",
+    tags: ["Wazuh", "Sysmon", "Sigma", "Python", "Docker"],
+    href: "https://dev-shams.github.io/AI-SOC-Lab/",
+    metric: { value: "18", label: "rules & queries" },
+    image: projectImages[4],
+  },
+  {
+    no: "02.",
     title: "Phishing Email Detection Tool",
     desc: "A live, calibrated machine-learning app separating phishing from legitimate email on a 5,020-dimension hybrid feature space.",
     tags: ["Python", "scikit-learn", "Flask", "Railway"],
@@ -121,7 +131,7 @@ const projects = [
     image: projectImages[0],
   },
   {
-    no: "02.",
+    no: "03.",
     title: "Machine-Learning NIDS",
     desc: "Network intrusion-detection research classifying DoS, Probe, R2L and U2R traffic through careful feature engineering.",
     tags: ["Python", "Random Forest", "NIDS"],
@@ -130,7 +140,7 @@ const projects = [
     image: projectImages[1],
   },
   {
-    no: "03.",
+    no: "04.",
     title: "Malware Analysis & Exploit Research",
     desc: "Static and dynamic malware analysis — from PDF droppers and XOR decoding through to stack-based exploitation research.",
     tags: ["IDA Pro", "OllyDbg", "Forensics"],
@@ -139,7 +149,7 @@ const projects = [
     image: projectImages[2],
   },
   {
-    no: "04.",
+    no: "05.",
     title: "Cyber-Physical Systems Security",
     desc: "An IT-to-OT incident investigation for a simulated water-treatment attack, mapped end-to-end to MITRE ATT&CK.",
     tags: ["Wireshark", "Wazuh", "MITRE ATT&CK"],
