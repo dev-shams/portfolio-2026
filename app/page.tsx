@@ -125,8 +125,8 @@ const projects = [
     no: "02.",
     title: "Phishing Email Detection Tool",
     desc: "A live, calibrated machine-learning app separating phishing from legitimate email on a 5,020-dimension hybrid feature space.",
-    tags: ["Python", "scikit-learn", "Flask", "Railway"],
-    href: "https://phishing-detection-tool-production.up.railway.app",
+    tags: ["Python", "scikit-learn", "Flask", "Render"],
+    href: "https://phishing-detection-tool-5han.onrender.com",
     metric: { value: "98.77%", label: "held-out accuracy" },
     image: projectImages[0],
   },
@@ -163,7 +163,7 @@ const skillGroups = [
   { idx: "01", title: "SOC & Monitoring", icon: Radar, items: ["IBM QRadar", "Elastic Stack", "Darktrace", "Microsoft Defender", "Wazuh", "FortiGate", "GLPI"] },
   { idx: "02", title: "Threat & Vulnerability", icon: ShieldCheck, items: ["Vulnerability Assessment", "Penetration Testing", "Threat Hunting", "MITRE ATT&CK", "Cisco ISE", "Sophos Central"] },
   { idx: "03", title: "Malware & Forensics", icon: Bug, items: ["IDA Pro", "OllyDbg", "Static Analysis", "Dynamic Analysis", "Digital Forensics"] },
-  { idx: "04", title: "Security Engineering", icon: Terminal, items: ["Python", "scikit-learn", "Flask", "Random Forest", "Machine Learning", "Railway"] },
+  { idx: "04", title: "Security Engineering", icon: Terminal, items: ["Python", "scikit-learn", "Flask", "Random Forest", "Machine Learning", "Render"] },
 ];
 
 const certifications = [
